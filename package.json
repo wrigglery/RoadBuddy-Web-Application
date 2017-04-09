@@ -1,0 +1,49 @@
+{
+  "name": "road-buddy",
+  "version": "1.0.0",
+  "scripts": {
+    "watch": "webpack --watch -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morozovcookie/RoadBuddy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morozovcookie/RoadBuddy/issues"
+  },
+  "homepage": "https://github.com/morozovcookie/RoadBuddy#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.0.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-preset-stage-2": "^6.11.0",
+    "babel-preset-stage-3": "^6.11.0",
+    "react-addons-test-utils": "^15.2.0",
+    "webpack": "^1.12.14",
+    "json-loader": "0.5.4",
+
+    "eslint": "^3.14.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-standard": "^2.0.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-config-standard-jsx": "^3.2.0",
+    "eslint-plugin-react": "^6.9.0",
+    "eslint-config-standard-react": "^4.2.0",
+
+    "log4js": "^1.1.0",
+
+    "react": "^15.2.0",
+    "react-dom": "^15.2.0",
+    "react-bootstrap": "^0.30.7"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}
