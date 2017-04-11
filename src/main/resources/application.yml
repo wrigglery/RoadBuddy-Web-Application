@@ -3,32 +3,28 @@ spring:
     rest:
       base-path: /api
 
-hibernate:
-  dialect: org.hibernate.dialect.PostgreSQLDialect
-  show_sql: true
-  hmb2ddl:
-      auto: create
-
 url: http://localhost:8080/
 
 ---
 
 spring:
   profiles: devel
-
-db:
-  driver: org.postgresql.Driver
-  url: jdbc:postgresql://127.0.0.1:5432/proddatabase
-  username: roadbuddy
-  password: roadbuddy
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://127.0.0.1:5432/roadbuddy
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
 
 ---
 
 spring:
   profiles: prod
-
-db:
-  driver: org.postgresql.Driver
-  url: jdbc:postgresql://prodhost:prodport/proddatabase
-  username: produsername
-  password: prodpass
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://prodhost:prodport/proddatabase
+    username: produsername
+    password: prodpass
