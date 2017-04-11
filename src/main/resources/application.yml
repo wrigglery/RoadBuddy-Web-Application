@@ -3,6 +3,14 @@ spring:
     rest:
       base-path: /api
 
+hibernate:
+  dialect: org.hibernate.dialect.PostgreSQLDialect
+  show_sql: true
+  hmb2ddl:
+      auto: create
+
+url: http://localhost:8080/
+
 ---
 
 spring:
@@ -14,11 +22,6 @@ db:
   username: roadbuddy
   password: roadbuddy
 
-hibernate:
-  dialect:
-  show_sql: true
-  hmb2ddl:
-    auto: create
 ---
 
 spring:
@@ -29,9 +32,3 @@ db:
   url: jdbc:postgresql://prodhost:prodport/proddatabase
   username: produsername
   password: prodpass
-
-hibernate:
-  dialect: org.hibernate.dialect.PostgreSQLDialect
-  show_sql: true
-  hmb2ddl:
-    auto: create
