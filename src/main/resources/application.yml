@@ -2,13 +2,6 @@ spring:
   data:
     rest:
       base-path: /api
-
-url: http://localhost:8080/
-
----
-
-spring:
-  profiles: devel
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://127.0.0.1:5432/roadbuddy
