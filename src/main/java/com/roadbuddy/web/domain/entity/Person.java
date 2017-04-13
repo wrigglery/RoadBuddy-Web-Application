@@ -1,4 +1,4 @@
-package com.morozovcookie.roadbuddy.domain.entity;
+package com.roadbuddy.web.domain.entity;
 
 import javax.persistence.*;
 

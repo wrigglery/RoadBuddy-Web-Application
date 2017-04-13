@@ -1,4 +1,4 @@
-package com.morozovcookie.roadbuddy;
+package com.roadbuddy.web;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

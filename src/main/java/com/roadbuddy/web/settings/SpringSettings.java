@@ -1,4 +1,4 @@
-package com.morozovcookie.roadbuddy.settings;
+package com.roadbuddy.web.settings;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.PropertySource;
