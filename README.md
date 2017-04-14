@@ -21,7 +21,7 @@ $ java -Xmx200m -jar /opt/roadbuddy/roadbuddy-web-application-0.0.1.jar
 # Or just
 $ mvn spring-boot:run
 ```
-Application will be available on http://localhost:8080
+Application will be available on `http://localhost:8080`
 
 ## Build and Run docker image
 ```bash
@@ -31,7 +31,7 @@ $ mnv docker:build
 
 $ docker run -p <port>:8080 -it roadbuddy-web-application:<version>
 ```
-Application will be available on http://localhost:<port>
+Application will be available on `http://localhost:<port>`
 
 [build-badge]: https://travis-ci.org/RoadBuddy/RoadBuddy-Web-Application.svg?branch=dev
 [build]: https://travis-ci.org/RoadBuddy/RoadBuddy-Web-Application
