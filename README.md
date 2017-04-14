@@ -33,5 +33,5 @@ $ docker run -p <port>:8080 -it roadbuddy-web-application:<version>
 ```
 Application will be available on `http://localhost:<port>`
 
-[build-badge]: https://travis-ci.org/RoadBuddy/RoadBuddy-Web-Application.svg?branch=dev
+[build-badge]: https://travis-ci.org/RoadBuddy/RoadBuddy-Web-Application.svg?branch=release
 [build]: https://travis-ci.org/RoadBuddy/RoadBuddy-Web-Application
