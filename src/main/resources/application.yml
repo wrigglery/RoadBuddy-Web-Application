@@ -18,6 +18,5 @@ spring:
   profiles: prod
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://prodhost:prodport/proddatabase
-    username: produsername
-    password: prodpass
+    url: jdbc:postgresql://web-app-postgres:5432/roadbuddy_db
+    username: roadbuddy
