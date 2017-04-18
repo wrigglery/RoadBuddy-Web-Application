@@ -1,7 +1,7 @@
 spring:
   data:
     rest:
-      base-path: /api
+      base-path: /api/dev
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://127.0.0.1:5432/roadbuddy
@@ -16,6 +16,9 @@ spring:
 
 spring:
   profiles: prod
+  data:
+    rest:
+      base-path: /api/v1
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://web-app-postgres:5432/roadbuddy_db
